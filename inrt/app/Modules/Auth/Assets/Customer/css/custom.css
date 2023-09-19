@@ -1,0 +1,347 @@
+.copy{
+	font-size: 16px;
+}
+
+
+
+
+.btn-custom {
+    background-color: #008080;
+    border-color: #008080;
+    padding: 10px 36px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.btn-custom:hover {
+    background-color: #016c6c;
+    border-color: #016c6c;
+    color: #fff;
+}
+
+
+
+.sub-title {
+    color: teal;
+}
+
+/* 12. Token --------------------- */
+.token-content{
+
+}
+.token-wrap {
+    padding: 40px 30px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #c1dbdb;
+  
+}
+.token-title {
+    margin-bottom: 40px;
+}
+.token-title h3 {
+    position: relative;
+    display: inline-block;
+    font-size: 32px;
+    margin: 0;
+    color: #008080;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.flip-clock-wrapper {
+    margin: 0 auto 20px;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.flip-clock-wrapper ul {
+    width:10.7%;
+    height: 80px;
+    font-size: 45px;
+    line-height: 80px;
+    border-radius: 3px;
+    background: transparent;
+    margin: 0 3px;
+    
+}
+.flip-clock-wrapper .flip {
+   
+    box-shadow: none;
+}
+.flip-clock-wrapper ul li {
+    line-height: 80px;
+}
+.flip-clock-wrapper ul li a div div.inn {
+    color: #fff;
+    text-shadow: none;
+    background-color: #008080;
+    font-size: 32px;
+    font-weight: 600;
+}
+.flip-clock-divider {
+    width: 15px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.flip-clock-dot {
+    background: #008080;
+    width: 8px;
+    height: 8px;
+    left: auto;
+    box-shadow: none;
+    position: relative;
+}
+.flip-clock-dot.top {
+    top: auto;
+}
+.flip-clock-dot.bottom {
+    bottom: auto;
+    margin-top: 10px;
+}
+.flip-clock-divider .flip-clock-label {
+    font-size: 14px;
+    font-weight: 700;
+    right: -45px;
+   /* font-family: 'Tajawal', sans-serif;*/
+        color: #008080;
+}
+.flip-clock-divider.minutes .flip-clock-label,
+.flip-clock-divider.seconds .flip-clock-label {
+    right: -55px;
+}
+.countdown-price h4 {
+    font-size: 22px;
+    font-weight: 900;
+    margin: 0;
+    color: #008080;
+}
+.progress-bar-up,
+.progress-bar-down{
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -moz-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    color: #008080;
+    padding: 0 1rem;
+    font-size: 15px;
+}
+.progress-bar-up{
+    top: 0.8rem;
+}
+.progress-bar-down {
+    bottom: 0.8rem;
+}
+.progress-bar-up li {
+    display: block;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    font-weight: 700;
+}
+.progress-bar-up li.pre-sale {
+    position: relative;
+    left: 1rem;
+}
+.progress-bar-up li.bonus {
+    position: relative;
+    right: 1rem;
+}
+.progress-bars {
+    position: absolute;
+    top: 1.8rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -moz-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    color: #008080;
+    padding: 0 1rem;
+}
+.progress-bars li {
+    display: block;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+}
+.progress {
+    background-color: #FFFFFF;
+    border: 1px solid #008080;
+    border-radius: 1rem;
+    overflow: initial;
+    height: 20px;
+}
+.progress-bar-custom {
+    border-radius: 1rem;
+    height: 18px;
+    -webkit-box-shadow: 2px 0 7px 0 rgba(0, 0, 0, 0.35);
+    box-shadow: 2px 0 7px 0 rgba(0, 0, 0, 0.35);
+    background-color: #008080
+}
+.progress-bar-down .progress-info {
+    display: block;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    font-weight: 700;
+}
+@media (max-width: 575px){
+    .token-wrap {
+        padding: 25px 15px;
+    }
+    /*Flip clock*/
+    .flip-clock-divider {
+    }
+    .progress {
+        height: 18px;
+    }
+    .progress-bar-custom {
+        height: 16px;
+    }
+    .progress-bar-up, .progress-bar-down {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .progress-bar-down {
+        bottom: 0.6rem;
+    }
+    .token-wrap .btn {
+        font-size: 13px;
+        line-height: 36px;
+        padding: 0 25px;
+    }
+    .play-button {
+        margin-left: 15px;
+    }
+    .bubble-btn span:not(.text) {
+        height: 42px;
+        width: 42px;
+    }
+    .bubble-btn span > i {
+        line-height: 42px;
+    }
+    .play-text {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .btn-subtitle {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 991px){
+    .token-wrap {
+        padding: 25px 15px;
+    }
+    /*Flip clock*/
+    .flip-clock-divider {
+    }
+    .progress {
+        height: 18px;
+    }
+    .progress-bar-custom {
+        height: 16px;
+    }
+    .progress-bar-up, .progress-bar-down {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .progress-bar-down {
+        bottom: 0.6rem;
+    }
+    .token-wrap .btn {
+        font-size: 13px;
+        line-height: 36px;
+        padding: 0 25px;
+    }
+    .play-button {
+        margin-left: 15px;
+    }
+    .bubble-btn span:not(.text) {
+        height: 42px;
+        width: 42px;
+    }
+    .bubble-btn span > i {
+        line-height: 42px;
+    }
+    .play-text {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .btn-subtitle {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1200px){
+/*    .flip-clock-wrapper {
+     width: 50%; 
+}*/
+    .token-title h3::after, .token-title h3::before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    top: 50%;
+    background-color: #008080;
+}
+    .token-title h3::after {
+        left: -15px;
+        transform: translate(-100%, -50%);
+    }
+    .token-title h3::before {
+        right: -15px;
+        transform: translate(100%, 0%);
+    }
+    .flip-clock-wrapper ul {
+        width: 10.7%;
+    }
+    .flip-clock-divider .flip-clock-label {
+        right: -106px;
+    }
+    .flip-clock-divider.minutes .flip-clock-label, .flip-clock-divider.seconds .flip-clock-label {
+    right: -110px;
+}
+}
+@media(min-width: 1400px){
+    .flip-clock-wrapper {
+     width: 70%; 
+}
+}
+@media(min-width: 1648px){
+    .flip-clock-wrapper {
+     width: 50%; 
+}
+}
+}

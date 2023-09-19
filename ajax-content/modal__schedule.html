@@ -1,0 +1,65 @@
+<h6 class="tt-modal__title">Schedule Service Online</h6>
+<p>
+    Our courteous plumbers work around your busy schedule and we never charge extra for Same Day Service, Evenings, and Saturday or Sunday appointments.
+</p>
+<form id="schedule-form" name="scheduleform" class="tt-form" data-src-handler="external/form/schedule-form.php" data-form="validation" method="post" action="#">
+    <div class="tt-form__group">
+        <input type="text" name="name" data-validate-field="empty" class="tt-form__control" id="inputName" placeholder="Your name">
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="tt-form__group">
+                <input type="text" name="email" data-validate-field="email" class="tt-form__control" id="inputEmail" placeholder="E-mail">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="tt-form__group">
+                <input type="text" name="phonenumber" data-validate-field="number" class="tt-form__control" placeholder="Phone">
+            </div>
+        </div>
+    </div>
+    <div class="tt-form__group">
+        <input type="text" name="modalAddress" data-validate-field="empty" class="tt-form__control" id="modalAddress" placeholder="Address">
+    </div>
+    <div class="tt-form__group">
+        <div class="row align-items-center modalAddress__custom-row">
+            <div class="col-auto">
+                <label class="tt-upload-label">Upload a video or photos</label>
+            </div>
+            <div class="col-auto tt-col-wide">
+                <div class="tt-upload">
+                    <div class="tt-upload__item">
+                        <div class="tt-icon tt-icon__default icon-748122"></div>
+                        <div class="tt-icon tt-icon__active"></div>
+                        <input id="upload_file" type="file" name="upload_file01[]" multiple>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tt-form__group">
+        <textarea name="message" data-validate-field="empty" rows="4" class="tt-form__control" placeholder="Tell us more about your issue"></textarea>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="tt-form__group tt-flatpickr">
+                <input type="text" name="datavisit" placeholder="Date of visit" data-input class="tt-form__control tt-form__control-icon-left">
+                <a class="input-button" title="toggle" data-toggle>
+                    <i class="tt-btn-inner icon-833593"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="tt-form__group ">
+                <input type="text" name="timevisit" placeholder="Time of visit" class="tt-form__control tt-form__control-icon-left tt-flatpickr-time" data-id="timePicker" readonly="readonly">
+                <a class="input-button" title="toggle" data-toggle>
+                    <i class="tt-btn-inner icon-9927001"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="tt-form__btn">
+        <button type="submit" class="tt-btn"><span>Schedule Online</span></button>
+    </div>
+</form>
+<div class="tt-modal-message">Form sent successfully</div>
